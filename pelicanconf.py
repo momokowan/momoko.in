@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
@@ -67,9 +69,10 @@ DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 ADDTHIS_PROFILE = True
 
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('PyConChina', 'http://cn.pycon.org')
-          ,('News', 'http://news.pychina.org')
-          )
+#MENUITEMS = ( ('Archives', SITEURL + '/archives.html')
+#        , ('PyConChina', 'http://cn.pycon.org')
+#        ,('News', 'http://news.pychina.org')
+#        )
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -81,6 +84,7 @@ SOCIAL = (('GitHub', 'https://github.com/PyConChina')
         , ('Weekly', 'http://weekly.pychina.org')
         , ('News', 'http://news.pychina.org')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
+        , ('Archives', SITEURL + '/archives.html')
         , ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('weibo', 'http://weibo.com/pyconcn')
@@ -105,6 +109,9 @@ STATIC_PATHS = ['_images', '_files'
     , '_extra/README.md'
     , '_extra/CNAME'
     , '_extra/LICENSE'
+    , '_extra/spreadsheet_momoko.json'
+    #, '_extra/timeline.css'
+    #, '_extra/timeline.js'
     ]
 
 EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
@@ -112,8 +119,10 @@ EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
     , '_extra/README.md': {'path': 'README.md'}
     , '_extra/CNAME': {'path': 'CNAME'}
     , '_extra/LICENSE': {'path': 'LICENSE'}
+    , '_extra/spreadsheet_momoko.json': {'path': 'spreadsheet_momoko.json'}
+    #, '_extra/timeline.css': {'path': 'timeline.css'}
+    #, '_extra/timeline.js': {'path': 'timeline.js'}
     }
-
 
 ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
@@ -125,8 +134,6 @@ TAG_URL = 'tag/{slug}.html'
 TAG_SAVE_AS = TAG_URL
 TAGS_SAVE_AS = 'tag/index.html'
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 
 

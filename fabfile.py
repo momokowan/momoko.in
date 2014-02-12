@@ -41,13 +41,13 @@ def reserve():
 #def preview():
 #    local('pelican -s publishconf.py')
 
-def pub2github():
+def pub2hub():
     local('cd {deploy_path} && '
             'pwd && '
             #'git pu && '
             'git add --all . && '
             #'git st && '
-            'git ci -am "upgraded from local. @ZoomQuiet" && '
+            'git ci -am "re-gen. from local. @ZoomQuiet" && '
             #'git pu cafe gitcafe-page '
             'git pu && '
             'pwd '.format(**env)

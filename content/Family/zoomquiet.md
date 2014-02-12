@@ -2,10 +2,9 @@ Title: Zoom.Quiuet
 Date: 2008-11-18
 Tags: people
 Slug: zoomquiet
-Author: ZoomQuiet
+Author: Zoom.Quiet
 
-
-# Zoom.Quiet (大妈)
+# 巴巴
 
 ![ZQ](http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png)
 
