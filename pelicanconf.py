@@ -111,7 +111,13 @@ STATIC_PATHS = ['_images', '_files'
     , '_extra/LICENSE'
     , '_extra/spreadsheet_momoko.json'
     #, '_extra/timeline.css'
+    #, '_extra/storyjs-embed_2.29.1.js'
     #, '_extra/timeline.js'
+    , '_extra/storyjs-embed.js'
+    #, '_extra/timeline_2.17.js'
+    , '_extra/timeline-min_2.17.js'
+    , '_extra/zh-ch_2.17.js'
+    
     ]
 
 EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
@@ -120,8 +126,14 @@ EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
     , '_extra/CNAME': {'path': 'CNAME'}
     , '_extra/LICENSE': {'path': 'LICENSE'}
     , '_extra/spreadsheet_momoko.json': {'path': 'spreadsheet_momoko.json'}
+    , '_extra/spreadsheet_momoko.json': {'path': 'family/0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE'}
     #, '_extra/timeline.css': {'path': 'timeline.css'}
+    #, '_extra/storyjs-embed_2.29.1.js': {'path': 'storyjs-embed_2.29.1.js'}
     #, '_extra/timeline.js': {'path': 'timeline.js'}
+    , '_extra/storyjs-embed.js': {'path': 'storyjs-embed.js'}
+    #, '_extra/timeline_2.17.js': {'path': 'timeline_2.17.js'}
+    , '_extra/timeline-min_2.17.js': {'path': 'timeline-min_2.17.js'}
+    , '_extra/zh-ch_2.17.js': {'path': 'zh-ch_2.17.js'}
     }
 
 ARTICLE_URL = '{category}/{slug}.html'
