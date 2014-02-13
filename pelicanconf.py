@@ -6,8 +6,9 @@ from __future__ import unicode_literals
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
-AUTHOR = u'MOMOKO'
-SITENAME = u'MOMOKO.in'
+AUTHOR = u'MoMoKo'
+SITENAME = u'MoMoKo.in'
+SITESUBTITLE = u'丸子家.在内'
 SITEURL = 'http://MOMOKO.in'
 DISQUS_SITENAME = u"momokoin" #填入你的Shortname
 
@@ -109,15 +110,19 @@ STATIC_PATHS = ['_images', '_files'
     , '_extra/README.md'
     , '_extra/CNAME'
     , '_extra/LICENSE'
+    #, '_extra/storyjs-embed.js'
+    #, '_extra/timeline-min_2.17.js'
+    #, '_extra/zh-ch_2.17.js'
+    , '_extra/sanchuan_news.json'
+    , '_extra/sanchuan_storyjs-embed.js'
+    , '_extra/sanchuan_timeline-min.js'
+    , '_extra/sanchuan_timeline.css'
+    , '_extra/sanchuan_zh-ch.js'
+    , '_extra/loading.gif'
+    , '_extra/timeline.png'
+    #, '_extra/basic.json'
     , '_extra/spreadsheet_momoko.json'
-    #, '_extra/timeline.css'
-    #, '_extra/storyjs-embed_2.29.1.js'
-    #, '_extra/timeline.js'
-    , '_extra/storyjs-embed.js'
-    #, '_extra/timeline_2.17.js'
-    , '_extra/timeline-min_2.17.js'
-    , '_extra/zh-ch_2.17.js'
-    
+
     ]
 
 EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
@@ -125,15 +130,16 @@ EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
     , '_extra/README.md': {'path': 'README.md'}
     , '_extra/CNAME': {'path': 'CNAME'}
     , '_extra/LICENSE': {'path': 'LICENSE'}
-    , '_extra/spreadsheet_momoko.json': {'path': 'spreadsheet_momoko.json'}
+    #, '_extra/basic.json': {'path': 'family/0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE'}
+    #, '_extra/spreadsheet_momoko.json': {'path': 'spreadsheet_momoko.json'}
     , '_extra/spreadsheet_momoko.json': {'path': 'family/0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE'}
-    #, '_extra/timeline.css': {'path': 'timeline.css'}
-    #, '_extra/storyjs-embed_2.29.1.js': {'path': 'storyjs-embed_2.29.1.js'}
-    #, '_extra/timeline.js': {'path': 'timeline.js'}
-    , '_extra/storyjs-embed.js': {'path': 'storyjs-embed.js'}
-    #, '_extra/timeline_2.17.js': {'path': 'timeline_2.17.js'}
-    , '_extra/timeline-min_2.17.js': {'path': 'timeline-min_2.17.js'}
-    , '_extra/zh-ch_2.17.js': {'path': 'zh-ch_2.17.js'}
+    #, '_extra/sanchuan_news.json': {'path': 'family/0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE'}
+    , '_extra/sanchuan_storyjs-embed.js': {'path': 'sanchuan_storyjs-embed.js'}
+    , '_extra/sanchuan_timeline-min.js': {'path': 'sanchuan_timeline-min.js'}
+    , '_extra/sanchuan_timeline.css': {'path': 'sanchuan_timeline.css'}
+    , '_extra/sanchuan_zh-ch.js': {'path': 'sanchuan_zh-ch.js'}
+    , '_extra/loading.gif': {'path': 'loading.gif'}
+    , '_extra/timeline.png': {'path': 'timeline.png'}
     }
 
 ARTICLE_URL = '{category}/{slug}.html'

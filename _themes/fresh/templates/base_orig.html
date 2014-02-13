@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>{% block title %}{%endblock%} 
-            |{{ SITENAME }}|{{ SITESUBTITLE }}</title>
+        <title>{% block title %}{%endblock%}{{ SITENAME }}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,10 +10,10 @@
 
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" type="text/css" />
         {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITESUBTITLE }} Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
         {% endif %}
         {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITESUBTITLE }} RSS Feed" />
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
 <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.0/jquery.min.js"></script>
 
@@ -25,10 +24,8 @@
     <div class="row-fluid">
         <div class="span10 offset1">
             <header id="banner" >
-                <h1><!--{{ SITENAME }} -->
-                    <a href="{{ SITEURL }}/">
-                        M<button class="btn disabled btn-danger">O</button>M<button class="btn disabled btn-danger">O</button>K<button class="btn disabled btn-inverse">O</button>.in
-                        {% if SITESUBTITLE %} <sup>{{ SITESUBTITLE }}</sup> {% endif %}</a>
+                <h1>
+                    <a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
                 </h1>
                 <nav class="navbar">
                     <div class="navbar-inner">
@@ -58,27 +55,15 @@
     <div class="row-fluid">
         <div class="span10 offset1">
             <div class="row-fluid">
+                <div class="span10">
                     {% block content %}
                     {% endblock %}
-                <!-- for clean side bar full contents -->
-                <div class="span10">
                 </div>
-
-            </div>
-        </div>
-    </div>
-
-    <footer id="site-footer">
-        <div class="row-fluid">
-
-
-            <div class="span10 offset1">
-<hr/>
-
+                <div class="span2">
                     <section id="sidebar">
                     {% if LINKS %}
                             <div>
-                                <h6>Links</h6>
+                                <h2>Links</h2>
                                 <ul>
                                 {% for name, link in LINKS %}
                                     <li><a href="{{ link }}">{{ name }}</a></li>
@@ -88,7 +73,7 @@
                     {% endif %}
                     {% if SOCIAL %}
                             <div>
-                                <h6>Social</h6>
+                                <h2>Social</h2>
                                 <ul>
                                     <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
                                     {% if FEED_ALL_RSS %}
@@ -102,9 +87,15 @@
                             </div><!-- /.social -->
                     {% endif %}
                     </section><!-- /#sidebar -->
-<hr/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer">
+        <div class="row-fluid">
+            <div class="span10 offset1">
                 <address>
-                    
                     <p>
                         This blog is proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                     </p>

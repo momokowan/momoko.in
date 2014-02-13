@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MOMOKO.in</title><link href="http://MOMOKO.in/" rel="alternate"></link><link href="http://MOMOKO.in/feeds/family.atom.xml" rel="self"></link><id>http://MOMOKO.in/</id><updated>2014-02-10T00:00:00+08:00</updated><entry><title>领导s, 情人节快乐;-)</title><link href="http://MOMOKO.in/family/family-timeline.html" rel="alternate"></link><updated>2014-02-10T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:MOMOKO.in,2014-02-10:family/family-timeline.html</id><summary type="html">&lt;div id="timeline-embed"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-var timeline_config = {
-  width:              "100%",
-  height:             "600",
-  source:             "0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE",
-  //source:             "/spreadsheet_momoko.json",
-  //embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
-  //start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
-  //start_at_slide:     '1',                            //OPTIONAL START AT SPECIFIC SLIDE
-  //start_zoom_adjust:  '1',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
-  //hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
-  //font:               'Bevan-PotanoSans',             //OPTIONAL FONT
-  //font:               'http://cdn.staticfile.org/timelinejs/2.29.0/css/themes/font/Bevan-PotanoSans.css',
-  //debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
-  //lang:               'zh-cn',                           //OPTIONAL LANGUAGE
-  lang:               "/zh-ch_2.17.js",
-  //maptype:            'watercolor',                   //OPTIONAL MAP STYLE
-  css:                'http://cdn.staticfile.org/timelinejs/2.24/css/timeline.css',     //OPTIONAL PATH TO CSS
-  //js:                 "/timeline.js"
-  js:                 "/timeline-min_2.17.js"
-  //js:                 'http://cdn.staticfile.org/timelinejs/2.24/js/timeline-min.js'    //OPTIONAL PATH TO JS
-};
-&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/storyjs-embed.js"&gt;&lt;/script&gt;
-
-&lt;!-- 我是你的小小狗 ~ 阿牛 
-&lt;script type="text/javascript" src="/storyjs-embed_2.29.1.js"&gt;&lt;/script&gt;
-wmode="opaque"
- width="235" height="346"
---&gt;
-
-&lt;p&gt;&lt;embed src="http://www.xiami.com/widget/5407369_766,_235_346_cccccc_dddddd_1/multiPlayer.swf" type="application/x-shockwave-flash" width="0" height="0" wmode="opaque"&gt;&lt;/embed&gt;&lt;/p&gt;
-&lt;!--
-
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MoMoKo.in</title><link href="http://MOMOKO.in/" rel="alternate"></link><link href="http://MOMOKO.in/feeds/family.atom.xml" rel="self"></link><id>http://MOMOKO.in/</id><updated>2014-02-10T00:00:00+08:00</updated><entry><title>大小丸子🐒:"情人节快乐;-)"</title><link href="http://MOMOKO.in/family/family-timeline.html" rel="alternate"></link><updated>2014-02-10T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:MOMOKO.in,2014-02-10:family/family-timeline.html</id><summary type="html">&lt;!--
     88888888888 d8b                        888 d8b                888888   d8888b  
         888     Y8P                        888 Y8P                   88b d88P  Y88b 
         888                                888                       888 Y88b
@@ -47,7 +11,28 @@ wmode="opaque"
                                                                     d88P            
                                                                   d88P             
                                                                 888P              
-     --&gt;</summary></entry><entry><title>Zoom.Quiuet</title><link href="http://MOMOKO.in/family/zoomquiet.html" rel="alternate"></link><updated>2008-11-18T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:MOMOKO.in,2008-11-18:family/zoomquiet.html</id><summary type="html">&lt;h1 id="_1"&gt;巴巴&lt;/h1&gt;
+--&gt;
+
+&lt;div id="timeline-embed"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+var timeline_config = {
+    width:      '100%',
+    height:     '600',
+    source:     '0AgPxePCteZKodE82R2NCdzZjcWNZcy1VYk9aYWgzcUE',
+    //lang:       'http://cdn.staticfile.org/timelinejs/2.24/js/locale/zh-cn.js',
+    //js:         'http://cdn.staticfile.org/timelinejs/2.24/js/timeline-min.js',
+    lang:       '/sanchuan_zh-ch.js',
+    css:        '/sanchuan_timeline.css',
+    js:         '/sanchuan_timeline-min.js',
+    }
+&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/sanchuan_storyjs-embed.js"&gt;&lt;/script&gt;
+
+&lt;!-- 我是你的小小狗 ~ 阿牛 --&gt;
+
+&lt;p&gt;&lt;embed src="http://www.xiami.com/widget/5407369_766,_235_346_cccccc_dddddd_1/multiPlayer.swf" type="application/x-shockwave-flash" width="0" height="0" wmode="opaque"&gt;&lt;/embed&gt;&lt;/p&gt;</summary></entry><entry><title>Zoom.Quiuet</title><link href="http://MOMOKO.in/family/zoomquiet.html" rel="alternate"></link><updated>2008-11-18T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:MOMOKO.in,2008-11-18:family/zoomquiet.html</id><summary type="html">&lt;h1 id="_1"&gt;巴巴&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
