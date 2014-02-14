@@ -3,6 +3,7 @@ output/
 .DS_Store
 
 *.py[cod]
+*.~
 
 # C extensions
 *.so
