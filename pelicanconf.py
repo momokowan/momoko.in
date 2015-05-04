@@ -3,6 +3,10 @@
 from __future__ import unicode_literals
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#WITH_FUTURE_DATES=False
+# Markup
+#TYPOGRIFY = True
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
@@ -20,6 +24,8 @@ DATE_FORMATS = {
 }
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 DEFAULT_DATE = 'fs' # use filesystem's mtime
+LOCALE = ('zh_CN.utf8',)
+DEFAULT_LANG = u'zh_CN'
 
 #LOCALE = ('zh_CN.utf8',)
 DEFAULT_LANG = u'zh_CN'
@@ -29,8 +35,8 @@ FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################   Plugins abt.
 ###############################################################
 # Plugins 
-PLUGINS=['_plugins.sitemap'
-    , '_plugins.extract_toc'
+PLUGINS=['_plugins.extract_toc'
+    #, '_plugins.sitemap'
     #, '_plugins.gzip_cache'
     #, u"pelican.plugins.disqus_static"
     ]
