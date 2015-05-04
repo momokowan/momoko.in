@@ -105,6 +105,7 @@ TEMPLATE_PAGES = {
         }
 
 STATIC_PATHS = ['_images', '_files'
+    , '_extra/.nojekyll'
     , '_extra/robots.txt'
     , '_extra/favicon.ico'
     , '_extra/README.md'
