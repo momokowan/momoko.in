@@ -5,7 +5,7 @@ Author: Zoom.Quiet
 
 # 粑粑
 
-![ZQ](http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png)
+![ZQ](http://pyconcn.zoomquiet.top/images/volunteer/zhouqi.png)
 
 Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";

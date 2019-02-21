@@ -10,16 +10,19 @@ import sys
 
 def fixall(p2md):
     print p2md
-    print os.listdir(p2md)
+    #print os.listdir(p2md)
     for md in os.listdir(p2md):
         _page = '%s/%s'% (p2md,md)
         _remd = ''
         for line in open(_page,'r').readlines():
             #print line
-            if "](http://zoomquiet.qiniudn.com" in line:
-                _rel = line.replace('zoomquiet.qiniudn.com'
-                                   , 'momoko.zoomquiet.top')
-                print "{} \n==>\n {}".format(line, _rel)
+
+            if "http://zoomquiet.qiniucdn.com" in line:
+                print line,"\n==>"
+                _rel = line.replace('](http://zoomquiet.qiniucdn.com'
+                                    , '](http://momoko.zoomquiet.top')
+                #print "{} \n==>\n {}".format(line, _rel)
+                print _rel
                 _remd += _rel
             else:
                 _remd += line
